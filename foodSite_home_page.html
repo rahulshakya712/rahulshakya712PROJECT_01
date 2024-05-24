@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FOOD</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body{
+        background-color: #1d1c1c;
+      }
+      .header {
+        border-bottom: 1.5rem solid rgb(94, 92, 92);
+        box-shadow: 0px 0px 5px 5px white;
+      }
+      .header nav {
+        background: #1d1c1c;
+        height: 7rem;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+      }
+      .header .logo {
+        width: 100px;
+      }
+      .header nav .links a {
+        margin-left: 3rem;
+        font-size: 1.5rem;
+        color: rgb(220, 220, 220);
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        text-transform: uppercase;
+      }
+      .header nav .links a:hover {
+        text-decoration: underline;
+        color: wheat;
+      }
+      .header nav .icon {
+        color: rgb(220, 220, 220);
+        display: flex;
+      }
+      .header nav .icon .fas {
+        margin-left: 3rem;
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .header nav .icon .fas:hover {
+        color: wheat;
+        text-decoration: underline;
+        cursor: pointer;
+      }
+      /* @media (min-width:600px){
+       header nav .links{
+            height: 400px;
+            width: 400px;
+            background-color: #1d1c1c;
+            position: relative;
+            right: 1rem;
+            top:10rem;
+        } */
+      /* } */
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar">
+        <a href="">
+          <img src="../images/Screenshots/coffeecup.png" alt="" class="logo" />
+        </a>
+        <div class="links">
+          <a href="">home</a>
+          <a href="">nonvej</a>
+          <a href="">vej</a>
+          <a href="">about</a>
+          <a href="">contact</a>
+        </div>
+        <div class="icon">
+          <div class="fas fa-search" id="search-btn">a</div>
+          <div class="fas fa-bars" id="menu-btn">b</div>
+          <div class="fas fa-bars" id="menu-btn">c</div>
+        </div>
+      </nav>
+    </header>
+  </body>
+</html>
